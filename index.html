@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page Hewan Qurban</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        background-color: #60ffda;
+      }
+      header {
+        background-color: rgb(14, 255, 175);
+        color: rgb(0, 0, 0);
+        padding: 20px;
+        text-align: center;
+      }
+      footer {
+        background-color: rgb(18, 233, 32, 0.807);
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 10px;
+        position: relative;
+      }
+      .hewan-kurban {
+        margin-top: 20px;
+      }
+      .btn-primary {
+        transition: transform 0.2s; /* Smooth transition */
+      }
+      .btn-primary:active {
+        transform: scale(0.95); /* Animation effect on click */
+      }
+    </style card-img-top {
+          transition: transform 0.3s ease; /* Smooth transition */
+        }
+        
+        .card-img-top:hover {
+          transform: scale(1.05); /* Slightly enlarge the image on hover */
+        }
+  </head>
+      <style>
+      .card-img-top {
+    transition: transform 0.5s ease, opacity 0.5s ease; /* Smooth transition for scale and opacity */
+        opacity: 0.8; /* Slightly transparent by default */
+      }
+
+      .card-img-top:hover {
+        transform: scale(1.1); /* Slightly enlarge the image on hover */
+        opacity: 1; /* Fully opaque on hover */
+      }
+    </style>
+  <body>
+    <header>
+      <h1>Selamat Datang di Layanan Qurban</h1>
+      <p>Pesan hewan qurban terbaik untuk Idul Adha Anda.</p>
+    </header>
+
+    <section class="hewan-kurban my-5">
+      <h2 class="text-center">Hewan Qurban Tersedia</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img
+              src="https://domainanda.com/images/pexels-pripicart-457447.jpg"
+              class="card-img-top"
+              alt="Sapi"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Sapi</h5>
+              <p class="card-text">Harga: Rp 15.000.000</p>
+              <button
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#sapiModal"
+              >
+                Pesan Sekarang
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img
+              src="https://domainanda.com/images/gambar%20kambing.jpg"
+              class="card-img-top"
+              alt="Kambing"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Kambing</h5>
+              <p class="card-text">Harga: Rp 7.000.000</p>
+              <button
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#kambingModal"
+              >
+                Pesan Sekarang
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img
+              src="https://domainanda.com/images/domba.jpeg"
+              class="card-img-top"
+              alt="Domba"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Domba</h5>
+              <p class="card-text">Harga: Rp 9.000.000</p>
+              <button
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#DombaModal"
+              >
+                Pesan Sekarang
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; Layanan Qurban 2025. Suprapto Agency.</p>
+    </footer>
+  </body>
+</html>
